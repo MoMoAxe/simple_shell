@@ -1,1 +1,1 @@
-Alx_Low_Level_Programming --> Creating a Simple shell 
+Alx_Low_Level_Programming --> Creating a Simple shell group project
