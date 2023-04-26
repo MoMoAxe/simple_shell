@@ -28,13 +28,16 @@ void print_env(char **env);
 char **_getPATH(char **env);
 void msgerror(char *name, int cicles, char **command);
 
+/*-----SEPERATING COMMAND-----*/
 
 char **tokening(char *buffer, const char *s);
 
+/*-----FREEING THE MEMORY-----*/
 
 void free_dp(char **command);
 void free_exit(char **command);
 
+/*-----FUNCTIONS-----*/
 
 int _strcmp(char *s1, char *s2);
 unsigned int _strlen(char *s);
@@ -43,4 +46,4 @@ int _atoi(char *s);
 char *_strcat(char *dest, char *src);
 
 
-#endif /* _SHELL_H_ */
+#endif /* SHELL_H */
