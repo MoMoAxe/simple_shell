@@ -5,7 +5,7 @@
  * @ac: count of inputed arguments
  * @av: array of inputed arguments
  * @env: array of enviromental variables
- * Return: Always 0.
+ * Return: Always 0
  */
 int main(int ac, char **av, char **env)
 {
