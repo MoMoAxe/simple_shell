@@ -7,7 +7,7 @@
 /**
  * welcome - Welcome message
  * @name: pointer to the name string
- * Return: void
+ * Return: void.
  */
 void welcome(char *name)
 {
